@@ -5,7 +5,10 @@
 #usb_modeswitch -v 12d1 -p 14fe --verbose -J
 
 # ZTE
-usb_modeswitch -v 19d2 -p fff5 --verbose -K
+#usb_modeswitch -v 19d2 -p fff5 --verbose -K
+
+# NEw
+usb_modeswitch -v 1199 -p 68a3 --verbose -K
 
 echo "Running lsusb to show all connected USB PID/VID pairs"
 lsusb
