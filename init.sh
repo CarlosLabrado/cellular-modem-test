@@ -8,7 +8,7 @@
 #usb_modeswitch -v 19d2 -p fff5 --verbose -K
 
 # NEw
-usb_modeswitch -v 1199 -p 68a3 --verbose -K
+usb_modeswitch -v 1199 -p 68a3 --verbose -S
 
 echo "Running lsusb to show all connected USB PID/VID pairs"
 lsusb
