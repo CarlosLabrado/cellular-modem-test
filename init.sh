@@ -16,7 +16,7 @@ usb_modeswitch -v 1199 -p 68a3 --verbose -S
 echo "Running lsusb to show all connected USB PID/VID pairs"
 lsusb
 
- ./wvdial_auto_reconnect.sh &
+# ./wvdial_auto_reconnect.sh &
 
 # Add your application start code from this point onwards
 
