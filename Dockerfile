@@ -10,6 +10,8 @@ ADD init.sh /init.sh
 
 ADD wvdial.conf /etc/wvdial.conf
 
+ADD wvdial /etc/ppp/peers/wvdial
+
 ADD wvdial_auto_reconnect.sh /wvdial_auto_reconnect.sh
 
 CMD /init.sh

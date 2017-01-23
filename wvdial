@@ -1,0 +1,7 @@
+noauth
+name wvdial
+usepeerdns
+noipdefault
+persist
+nocrtscts
+local
