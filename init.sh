@@ -8,7 +8,7 @@
 #usb_modeswitch -v 19d2 -p fff5 --verbose -K
 
 # NEw
-usb_modeswitch -v 1199 -p 68a3 --verbose -S
+#usb_modeswitch -v 1199 -p 68a3 --verbose -S
 
 # with auto disabled
 #usb_modeswitch -v 1199 -p 7000 --verbose -S
